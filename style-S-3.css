@@ -1,0 +1,51 @@
+
+/*Section 1 is the heading with the theme*/
+body  {
+    background-color: rgb(192, 50, 14);
+    margin: 0px;
+    padding: 3px;
+}
+
+.section-3 {
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+.section-3-a {
+    text-align: center;
+}
+.section-3-b {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #dddddd;
+    padding: 16px;
+}
+.section-3-b div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 30%;
+    height: auto;
+    background-color:white;
+    margin: 16px;
+}
+div {
+    background-color: white;
+}
+div img {
+    width: 100%;
+    justify-self: center;
+    height: auto;
+}
+
+div p {
+    padding: 0 16px;
+}
+.course {
+    align-content: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+}

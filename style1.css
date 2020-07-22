@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+.section-1a {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 64px;  
+    width: auto;
+}
+.section-1a-1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 32px;   
+    padding-left: 24px;
+    align-content: flex-end;
+}
+.section-1a-1 .academy {
+    color: gray;
+}
+.section-1a-1 .logo {
+    width: 25px;
+    height: auto;
+}
+.section-1a-2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 8px;
+    padding-right: 24px;*/
+}
+.sign-in-1, .sign-in-2, .sign-in-3, .sign-in-4 {
+    padding: 8px;
+}

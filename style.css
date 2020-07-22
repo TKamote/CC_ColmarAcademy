@@ -1,0 +1,325 @@
+* {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 3px;
+}
+/*Section 1 is the heading with the theme*/
+.section-1 {
+    background-color: #ffffff;
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section-1a {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 64px;  
+    width: auto;
+}
+.section-1a-1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 8px;
+    padding-left: 24px;
+
+}
+.section-1a-1 .col-acad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 32px;
+}
+.section-1a-1 .academy {
+    color: gray;
+}
+.section-1a-1 .logo {
+    width: 25px;
+    height: auto;
+}
+
+.section-1a-2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 8px;
+    padding-right: 24px;*/
+}
+.sign-in-1, .sign-in-2, .sign-in-3, .sign-in-4 {
+    padding: 8px;
+}
+.section-1b {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    width: auto; 
+    height: auto; 
+    padding: 24px;
+}
+.section-1b-1 {
+    background-color: #ffffff;
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 12px;
+}
+.section-1b img {
+    width: 55%;
+    height: auto;
+}   
+.section-1b-2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    width: 35%; 
+    height: auto;  
+    padding: 24px; 
+    justify-content: space-evenly;
+}
+.section-1b-2-a, .section-1b-2-b, .section-1b-2-c {
+    padding: .5rem 0;
+}
+.section-1b-2-c {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.section-1b-2-a {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+/* Section 2 - information about the school*/
+.section-2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px 24px 24px;
+}
+.section-2a {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #ffffff;
+    padding: 0 24px 0 0;
+}
+.section-2a-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.section-2a-1a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 32px 0 24px 0;
+
+}
+.section-2a-1b {
+    padding: 0px;
+    font-size: .95rem;
+    
+}
+.section-2a-1c {
+    padding: 24px 0 8px 0;
+    font-size: .95rem;
+    font-weight: 500;
+}
+.section-2b {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 45%;
+    height: auto;
+    flex-grow: 1;
+   
+}
+.date, .campus, .guest_lecturer {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: 0;
+}
+.image {
+    background-color: #ffffff;
+    width: 40%;
+    height: auto;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 65%;
+    height: auto;
+    justify-content: center;
+    font-size: 1rem;
+}
+.detail h5 {
+    padding: 0 8px 8px 8px;
+    font-size: .9rem;
+}
+.detail p {
+    padding: 0 0 0 8px;
+    font-size: .8rem;
+}
+.detail a {
+    padding: 8px 8px 0 8px;
+    font-size: .8rem;
+}
+
+/*Section 3 - Start Learning section*/
+.section-3 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+.section-3-a {
+    text-align: center;
+}
+.section-3-b {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding: 16px 32px;
+}
+.section-3-b div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 30%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 16px;
+}
+div img {
+    width: 99%;
+    justify-self: center;
+    height: auto;
+    padding-bottom: 16px;
+}
+.section-3-b p {
+    padding: 6px 6px 6px 25px;
+    font-size: .95rem;
+}
+.section-3-b1 {
+    padding-bottom: 14px;
+}
+.section-3-b1 .course {
+    font-weight: 700;
+    font-size: 1.25rem;
+    background-color: #ffffff;
+}
+/*Section 4- Thesis Exhibit*/
+.section-4 {
+    background-color: #ffffff;
+    padding: 24px;
+}
+.section-4a {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+.section-4b {
+    display: flex;
+    flex-direction: row;
+}
+.section-4b-1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
+    padding: 0 24px 32px 0;
+    font-size: 18px;
+}
+.section-4b-1 .section-4b-1-title {
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 24px 0 8px 0;
+}
+.section-4b-1 video {
+    width: 100%; 
+}
+.section-4b-2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0 24px 0 0;
+}
+.section-4b-2-a {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.section-4b-2-a p {
+    background-color: #ffffff;
+    padding-left: 16px;
+    font-size: 16px;  
+}
+.section-4b-2-a .section-4b-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.section-4b-2-a div {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    justify-content: center;
+    
+}
+.section-4b-2-a img {
+    width: 35%;
+    height: auto;
+ }
+ 
+.section-4b-2-b {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.section-4b-2-b p {
+    background-color: #ffffff;
+    padding-left: 16px;
+    font-size: 16px;
+}
+.section-4b-2-b div {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    justify-content: center;    
+ }
+ .section-4b-2-b img {
+    width: 35%;
+    height: auto;
+ }
+ .section-4b-2-b .section-4b-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+/*Section footer*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 24px;
+    background-color: #ffffff;
+}
